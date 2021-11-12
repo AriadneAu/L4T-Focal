@@ -11,4 +11,4 @@ ADD scripts/fix_sources.sh /root/fix_sources.sh
 RUN chmod +x /root/fix_sources.sh && /root/fix_sources.sh
 
 # cleanup
-RUN rm /root/fix_sources.sh
+# RUN rm /root/fix_sources.sh
