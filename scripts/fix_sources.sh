@@ -1,3 +1,2 @@
-for f in /etc/apt/sources.list.d/*; do
-  sed -i 's/^\#\s*//' $f
-done
+
+sed -i 's/^\#\s*//' /etc/apt/sources.list
